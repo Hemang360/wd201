@@ -8,20 +8,30 @@
 <body>
     <h1>This is a registration form!
     </h1>
-    <form>
-    <label for="name">Full Name:</label>
-    <input type="text" id="name" name="name" required><br>
+    <form id="user-form" method="post">
+        <h1>Details of Candidate</h1>
 
-    <label for="email">Email Address:</label>
-    <input type="email" id="email" name="email" required><br>
-
-    <label for="dob">Date of Birth:</label>
-    <input type="date" id="dob" name="dob" required><br>
-
-    <label for="password">Password:</label>
-    <input type="password" id="password" name="password" required><br>
-
-    <input type="submit" value="Register">
+      <li ><label for="text">Name: </label>
+      <input required type="text" id="name" name="name"></li>
+      <p></p>
+        <li><label for="email">Email: </label>
+      <input required type="email" id="email" name="email" ></li>
+      <p></p>
+        <li><label required for="password">Password: </label>
+      <input required type="password" id="password" name="password" ></li>
+      <p></p>
+        <li><label for="dob">Date of Birth: </label>
+      <input type="date" id="dob" name="dob"></li>
+      <p></p>
+      <label for="acceptTerms">Accepted Terms & Conditions </label>
+      <input type="checkbox" name="acceptTerms" id="acceptTerms" >
+      <p></p>
+      <button required class="button" type="submit">submit</button>
+      <p></p>
+    
   </form>
+  
+        <h2 >Entries</h2>
+    
 </body>
 </html>
